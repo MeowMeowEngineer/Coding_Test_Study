@@ -9,7 +9,7 @@ int solution(int array[], size_t array_len, int height) {
         if(height<array[i]){//머쓱이 키보다 크다면
             answer++;//정답값을 1 증가시켜준다
         }
-    }
+    }//수정 완료
 
     return answer;
 }
