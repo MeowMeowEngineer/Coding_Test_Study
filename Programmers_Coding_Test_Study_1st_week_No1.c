@@ -14,6 +14,6 @@ int solution(int absolutes[], size_t absolutes_len, bool signs[], size_t signs_l
         else{ //false이면 
             answer -= absolutes[i]; //answer에서 빼준다
         }
-    }//완료
-    return answer;
+    }
+    return answer;//정답 반환
 }
