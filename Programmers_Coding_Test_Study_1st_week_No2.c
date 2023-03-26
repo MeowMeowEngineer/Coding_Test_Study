@@ -18,5 +18,5 @@ int solution(int numbers[], size_t numbers_len) {
 
         }
     }
- return answer;
+ return answer;//정답을 반환해준다
 }
