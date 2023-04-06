@@ -11,5 +11,5 @@ int solution(const char* s) {
         //그것을 atoi함수를 사용해서 정수로 변환한 뒤 answer에 더해준다
         if (s[i]=='-') answer-=atoi(&s[i+2]);//빼기 연산도 똑같은 원리이다.
         i++; }
-    return answer;//정답 반환//하림보
+    return answer;//정답 반환//..
 }
